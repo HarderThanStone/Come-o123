@@ -1,3 +1,33 @@
-body{
-background: rgb(36, 32, 32);
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Jacques+Francois+Shadow&display=swap');
+
+body {
+    margin: 0;
+    background: rgb(36, 32, 32);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: brown;
+    padding: 20px;
+    position: relative;
+    gap: 80px;
+     border: 4px solid black; 
+}
+
+#logo {
+    position: absolute;
+    left: 80px;
+    font-family: "BBH Bartle", sans-serif;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 34px;
+}
+
+.informacao {
+    padding: 9px 16px;
+    margin-left: 0;
+    background-color: black;
+    color: aliceblue;
 }
